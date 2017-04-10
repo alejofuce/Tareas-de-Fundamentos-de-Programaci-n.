@@ -1,0 +1,119 @@
+<!doctype html>
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="HOLA A TODOS" />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body class="impress-not-supported">
+
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>Paradigmas de Programacion.
+        Alejandro Fuertes</q>
+    </div>
+
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <q><strong>Paradigma:</strong> Se denomina Paradigma a la Teoría cuyo núcleo central se acepta sin cuestionar y que suministra la base y modelo para resolver problemas y avanzar en el conocimiento.</q>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q><strong>Paradigma de Programación:</strong> indica un método de realizar cómputos y la manera en que se deben estructurar y organizar las tareas que debe llevar a cabo un programa.</q>
+    </div>
+
+
+    <div id="title" class="step" data-x="1800" data-y="0" data-scale="6">
+        <span class="try">Tipos de Paradigmas</span>
+    </div>
+
+
+    <div class="step" data-x="1500" data-y="1300" data-scale="3">
+        <p>Principalmente encontramos dos enfoques, uno imperativo que nos dice <strong>cómo</strong> calcular, y otro que nos dice el <strong>qué</strong> calcular. Sin embargo existen otros paradigmas centrados en la estructura y organización de los programas.</p>
+    </div>
+
+
+    <div class="step" data-x="-500" data-y="3800" data-scale="3">
+        <p><strong>Paradigma Imperativo:</strong> Se enfoca en cómo se debe realizar el calculo, más no el porqué. La programación en el paradigma imperativo consiste en determinar que datos son requeridos para el cálculo, asociar a estos direcciones de memoria y efectuar, paso a paso, una secuencia de transformaciones en los datos almacenados de forma tal que el estado final represente un resultado correcto.</p>
+    </div>
+
+
+    <div class="step" data-x="-500" data-y="6600" data-scale="3">
+        <p><strong>Paradigma Declarativo:</strong> Se enfoca en el qué se debe calcular, sin importar el cémo. No existe un orden de evaluación prefijado. En otras palabras, se basa en describir las propiedades de la solución buscada, dejando indeterminado el algoritmo usado para encontrar la solución.</p>
+    </div>
+
+
+    <div class="step" data-x="-500" data-y="8600" data-scale="3">
+        <p><strong>Paradigma Funcional:</strong> Este tipo de paradigma demuestra un tipo de programación en forma de funciones matemáticas. Los lenguajes puramente funcionales evitan efectos secundarios que pueden ser comunes en otros tipos de paradigmas.</p>
+    </div>
+
+
+    <div class="step" data-x="3000" data-y="3500" data-scale="3">
+        <p><strong>Paradigma Lógico:</strong> Se definen reglas de inferencias lógicas a través de un motor de inferencias lógicas, resolver problemas planteados por el sistema. Basado en lógica de predicados de primer orden, los programas se componen de hechos, predicados y relaciones.</p>
+    </div>
+
+
+    <div class="step" data-x="3000" data-y="5500" data-scale="3">
+        <p><strong>Paradigma Orientado a Objetos:</strong> Este tipo de programación posee como idea principal encapsular estado y operaciones en objetos, estos objetos pueden comunicarse entre si, poseen clases y herencia.</p>
+    </div>
+
+
+    <div id="its-in-3d" class="step" data-x="4300" data-y="6600" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">Gracias</span> <span class="you">por</span> <span class="noticed">su</span> <span class="its">atención</span> 
+    </div>
+
+
+    <div id="overview" class="step" data-x="1000" data-y="3600" data-scale="12">
+    </div>
+
+</div>
+
+
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+
+</body>
+</html>
+
+
